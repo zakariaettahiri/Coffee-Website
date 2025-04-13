@@ -1,0 +1,51 @@
+/*
+color palletes
+#FFEAC5
+#FFDBB5
+#6C4E31
+#603F26
+*/
+*{
+    padding: 0 ;
+    margin: 0 ;
+}
+.container-fluid{
+    align-self:  center !important;
+}
+.card{
+    margin-right: 0;
+}
+body{
+    background-image: url('/img/coffee_bacg.jpg');
+    background-size: cover; /* or contain, or specific dimensions like '100% 100%' */
+    background-repeat: no-repeat;
+    background-position: center center; /* adjusts the position of the image */
+    
+}
+.body_countainer{
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  min-height: 75vh;
+}
+.btn{
+    border-color: #6C4E31 !important;
+    color:  #6C4E31 !important;
+    
+    background-color: #ffffff !important;
+}
+.btn:active{
+    background-color: #FFDBB5 !important;
+}
+.btn-success{
+  padding: auto !important;
+  margin: 0% ;
+  width: 100%; /* Makes the button fill the container */
+  max-width: 500px; /* Optional: Limits max width */
+  padding: 12px;
+  background-color: #FFDBB5 !important;
+}
+.btn-outline-primary{
+    justify-content: center !important;
+    align-content: center !important;
+}
